@@ -1,4 +1,24 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 10px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items > li {
+  padding: 10px;
+}
+
+.image {
+  width: 80px;
 }
